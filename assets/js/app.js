@@ -1,4 +1,4 @@
 $(document).ready(function(){
-   $('.parallax').parallax();
-   alert("funciona?");
+  $('.parallax').parallax();
+  $(".button-collapse").sideNav();
  });
