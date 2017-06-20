@@ -3,24 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Estandar</title>
+    <title>Ana Stephany Salazar Guzmán</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo"><img src="" alt="Steph"></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobreMi">Sobre mi</a></li>
-            <li><a href="#proyecto">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <!-- <div class="navbar-fixed"> -->
+    <nav>
+      <div class="nav-wrapper purple darken-3">
+        <a href="#!" class="brand-logo"><img src="" alt="Steph"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">reorder</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobreMi">Sobre mi</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobreMi">Sobre mi</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- </div> -->
     <div class="parallax-container"id="inicio">
       <div class="parallax"><img src="assets/images/fondo.jpg"></div>
       <button type="button" name="button"><a href="#">Buscame</a></button>
@@ -73,6 +81,7 @@
         </div>
       </div>
     </footer>
+
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
