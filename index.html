@@ -29,7 +29,7 @@
     </nav>
     <div class="parallax-container valign-wrapper row" id="inicio">
       <div class="parallax imagenParallax"><img src="assets/images/programando.png"></div>
-      <button type="button" name="button" class="deep-orange darken-1 btn col offset-m9"><a href="#" class="white-text">Colaboremos!</a></button>
+      <button type="button" name="button" class="deep-orange darken-1 btn col offset-m9" href="#modal1" data-target="modal1" ><a href="#" class="white-text" >Colaboremos!</a></button>
     </div>
     <div class="section white" id="sobreMi">
       <div class="row container">
@@ -68,7 +68,7 @@
         <p>correo electronico</p>
         <p>telefonos</p>
         <p>Redes sociales</p>
-        <button type="button" name="button" class="deep-orange darken-1 btn col offset-m9"><a href="#" class="white-text">Colaboremos!</a></button>
+        <button type="button" name="button" class="deep-orange darken-1 btn col offset-m9" data-target="modal1"><a href="#" class="white-text">Colaboremos!</a></button>
       </div>
     </div>
     <footer class="page-footer light-blue darken-4">
@@ -79,6 +79,40 @@
         </div>
       </div>
     </footer>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Tu nombre</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Tu apellido</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Tu email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">¡DÉJAME UN MENSAJE!</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Envialo</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+      </div>
+    </div>
 
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
