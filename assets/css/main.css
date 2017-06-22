@@ -3,10 +3,36 @@
   margin: 0;
 }
 
-.imagenParallax {
-  width: 100%;
-}
-
 .redes {
    margin-top: 12%;
+}
+
+#sobreMi {
+  color: #E8AC5D;
+  background: -webkit-linear-gradient(-90deg, #20374F 5%, #356C9E 100%);
+}
+
+#habilidades {
+  background: -webkit-linear-gradient(-90deg, #356C9E 10%, #E7EDF4  100%);
+}
+
+#proyectos {
+  color: #20374F;
+  background: -webkit-linear-gradient(-90deg, #E7EDF4 5%, #fff 100%);
+}
+
+#contacto {
+  color: #20374F;
+  background: -webkit-linear-gradient(-90deg, #fff 15%, #356C9E 100%);
+}
+
+.btn-sube {
+  background-color: #E8AC5D;
+}
+
+footer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #E8AC5D;
+  background-color: #20374F;
 }

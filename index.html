@@ -10,70 +10,61 @@
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper light-blue darken-4">
-        <a href="#!" class="brand-logo"><img src="" alt="Steph"></a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse amber-text"><i class="material-icons">reorder</i></a>
-        <ul class="right hide-on-med-and-down orange-text lighten-1">
-          <li><a href="#inicio" class="amber-text">Inicio</a></li>
-          <li><a href="#sobreMi" class="amber-text">Sobre mi</a></li>
-          <li><a href="#proyectos" class="amber-text">Proyectos</a></li>
-          <li><a href="#contacto" class="amber-text">Contacto</a></li>
-        </ul>
-        <ul class="side-nav light-blue darken-4" id="mobile-demo">
-          <li><a href="#inicio" class="amber-text">Inicio</a></li>
-          <li><a href="#sobreMi" class="amber-text">Quien soy</a></li>
-          <li><a href="#proyectos" class="amber-text">Proyectos</a></li>
-          <li><a href="#contacto" class="amber-text">Contacto</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="parallax-container valign-wrapper row" id="inicio">
-      <div class="parallax imagenParallax"><img src="assets/images/parallax.png"></div>
-      <button type="button" name="button" class="deep-orange darken-1 btn col offset-m9" href="#modal1" data-target="modal1" ><a href="#" class="white-text" >Colaboremos!</a></button>
+    <div class="parallax-container row" id="inicio">
+      <nav class="transparent">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img src="" alt="Steph"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse white-text"><i class="material-icons">reorder</i></a>
+          <ul class="right hide-on-med-and-down white-text lighten-1">
+            <li><a href="#inicio" class="white-text">Inicio</a></li>
+            <li><a href="#sobreMi" class="white-text">Sobre mi</a></li>
+            <li><a href="#proyectos" class="white-text">Proyectos</a></li>
+            <li><a href="#contacto" class="white-text">Contacto</a></li>
+          </ul>
+          <ul class="side-nav transparent" id="mobile-demo">
+            <li><a href="#inicio" class="white-text">Inicio</a></li>
+            <li><a href="#sobreMi" class="white-text">Quien soy</a></li>
+            <li><a href="#proyectos" class="white-text">Proyectos</a></li>
+            <li><a href="#contacto" class="white-text">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="parallax col s12"><img src="assets/images/parallax.png"></div>
     </div>
-    <div class="section white center-align" id="sobreMi">
-      <div class="row container ">
-        <h2 class="header">Soy Ana Salazar:</h2>
-        <h4 class="grey-text text-darken-3 lighten-3 col  s12">Front-End Developer Jr.</h4>
-        <h5 class="grey-text text-darken-3 lighten-3 col  s10 offset-s1">Amante del código y de la planeación de todo.</h5>
-        <p class="grey-text text-darken-3 lighten-3 col s8 offset-s2">Mamá homeschooler, encantada con todo lo relacionado a jugar y con la buena organización.</p>
-        <p class="grey-text text-darken-3 lighten-3 col s6 offset-s3">Disfruto aprender, compartir y ejercer los conocimientos adquiridos.</p>
-        <div class="col s12">
-          <h5>MIS HABILIDADES</h5>
-          <p>Me encanta lo que se puede crear tan solo usando HTML5, CSS3 y JavaScript.</p>
-          <p>Si a eso se le suma el uso de jQuery, API´s y frameworks como BOOTSTRAP o MaterializeCSS el resultado es asombroso y en menor tiempo</p>
-          <div class="row">
-            <div class="col s6">
-              <p>Intermedio</p>
-              <img src="assets/images/html5.jpg" alt="HTML">
-              <img src="assets/images/css.png" alt="css" >
-              <img src="assets/images/javascript.png" alt="javascript" >
-            </div>
-            <div class="col s6">
-              <p>Basico</p>
-              <img src="assets/images/jquery.png" alt="jquery">
-              <img src="assets/images/json.png" alt="json" >
-            </div>
-            <div class="col s12">
-              <p>También se usar</p>
-              <img src="assets/images/bootstrap.jpg" alt="bootstrap">
-              <img src="assets/images/materialize.png" alt="materialize">
-            </div>
-          </div>
+    <div class="section center-align" id="sobreMi">
+      <div class="row container">
+        <h2 class="header">Soy Ana Salazar</h2>
+        <h4 class="col  s12">Front-End Developer Jr.</h4>
+        <h5 class="col  s10 offset-s1">Amante del código y de la planeación de todo.</h5>
+        <p class="col s8 offset-s2">Mamá homeschooler, encantada con todo lo relacionado a jugar y con la buena organización.</p>
+        <p class="col s6 offset-s3">Disfruto aprender, compartir y ejercer los conocimientos adquiridos.</p>
+      </div>
+    </div>
+    <div class="section center-align " id="habilidades">
+      <div class="row">
+        <p class="col m8 offset-m2 s10 offset-s1">Me encanta todo lo que he podido crear tan solo usando HTML5, CSS3 y JavaScript.
+          Hago uso de jQuery, API´s y frameworks como BOOTSTRAP o MaterializeCSS. En el camino de seguir aprendidendo nuevas herramientas para desarrollar.</p>
+        <div class="col m5 s12">
+          <img src="assets/images/html5.jpg" alt="HTML">
+          <img src="assets/images/css.png" alt="css" >
+          <img src="assets/images/javascript.png" alt="javascript" >
+        </div>
+        <div class="col m6 offset-m1 s6">
+          <img src="assets/images/jquery.png" alt="jquery">
+          <img src="assets/images/json.png" alt="json" >
+        </div>
+        <div class="col m12 s6">
+          <img src="assets/images/bootstrap.jpg" alt="bootstrap">
+          <img src="assets/images/materialize.png" alt="materialize">
         </div>
       </div>
     </div>
-    <div class="section light-blue darken-4 center-align white-text" id="proyectos">
+    <div class="section center-align" id="proyectos">
       <div class="row ">
         <h4>Mis Proyectos</h4>
         <img src="assets/images/img-7.jpg" alt="proyectoLab1" class="col s4">
         <img src="assets/images/img-10.jpg" alt="proyectoLab2" class="col s4">
         <img src="assets/images/img-11.jpg" alt="proyectoLab3" class="col s4">
-      </div>
-      <div class="row">
-        <p class="">¿Quieres ver más de lo que hago?</p>
-        <button type="button" name="button" class="deep-orange darken-1 btn "><a href="#" class="white-text">Ver más</a></button>
       </div>
       <div class="row">
         <h5 >Proyectos personales</h5>
@@ -88,21 +79,23 @@
         <div class="col m6 s12 center-align">
           <h5>CONTACTO</h5>
           <p>Ana Stephany Salazar Guzmán</p>
-          <p>Iztapalapa, CDMX</p>
           <a href="https://github.com/AnaSalazar"><i class="fa fa-github fa-3x col s4 redes" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/ana-stephany-salazar"><i class="fa fa-linkedin fa-3x col s4 redes" aria-hidden="true"></i></a>
           <a href="mailto:anastephany.salazarguzman@gmail.com"><i class="fa fa-envelope fa-3x col s4 redes" aria-hidden="true"></i></a>
-          <button type="button" name="button" class="deep-orange darken-1 btn redes" data-target="modal1"><a href="#" class="white-text">Colaboremos!</a></button>
+          <button type="button" name="button" class="deep-orange darken-1 btn redes"><a href="#" class="white-text">Inicio!</a></button>
         </div>
         <div class="col m6">
           <img src="" alt="giftMio" class="col m6 hide-on-small-only center-align">
         </div>
       </div>
     </div>
-    <footer class="page-footer light-blue darken-4 grey-text">
-      © 2017 Copyright Steph
+    <footer class="center-align">
+      <div class="row">
+        <p class="col s6">© 2017 Copyright</p>
+        <p class="col s6">Steph / Laboratoria, México.</p>
+      </div>
     </footer>
-    <div id="modal1" class="modal">
+    <!-- <div id="modal1" class="modal">
       <div class="modal-content">
         <div class="row">
           <form class="col s12">
@@ -135,7 +128,7 @@
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Envialo</a>
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
       </div>
-    </div>
+    </div> -->
 
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
