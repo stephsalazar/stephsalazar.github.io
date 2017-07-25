@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ana Stephany Salazar Guzmán</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="assets/fa/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Athiti|Kite+One" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
-    <div class="parallax-container row" id="inicio">
+    <div class="parallax-container row titulos" id="inicio">
       <nav class="transparent">
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo"><img src="" alt="Steph"></a>
+        <div class="nav-wrapper navbar-height">
+          <!-- <a href="#!" class="brand-logo valign-wrapper"><img class="col s4 offset-s4 m3 logo" src="assets/images/logo_steph.png" alt="Steph"></a> -->
           <a href="#" data-activates="mobile-demo" class="button-collapse white-text"><i class="material-icons">reorder</i></a>
           <ul class="right hide-on-med-and-down white-text lighten-1">
             <li><a href="#inicio" class="white-text">Inicio</a></li>
@@ -29,18 +29,23 @@
           </ul>
         </div>
       </nav>
-      <div class="parallax col s12"><img src="assets/images/parallax.png"></div>
+      <div class="parallax col s12">
+        <img src="assets/images/parallax.png">
+      </div>
+      <div class="row center">
+        <img class=" s3  m2 logo" src="assets/images/logo_steph.png" alt="Steph">
+      </div>
     </div>
-    <div class="section center-align" id="sobreMi">
+    <div class="section center-align textos" id="sobreMi">
       <div class="row container">
-        <h2 class="header">Soy Ana Salazar</h2>
-        <h4 class="col  s12">Front-End Developer Jr.</h4>
+        <h2 class="header titulos bold">Soy Ana Salazar</h2>
+        <h4 class="col  s12 titulos">Front-End Developer Jr.</h4>
         <h5 class="col  s10 offset-s1">Amante del código y de la planeación de todo.</h5>
         <p class="col s8 offset-s2">Mamá homeschooler, encantada con todo lo relacionado a jugar y con la buena organización.</p>
         <p class="col s6 offset-s3">Disfruto aprender, compartir y ejercer los conocimientos adquiridos.</p>
       </div>
     </div>
-    <div class="section center-align " id="habilidades">
+    <div class="section center-align textos" id="habilidades">
       <div class="row">
         <p class="col m8 offset-m2 s10 offset-s1">Me encanta todo lo que he podido crear tan solo usando HTML5, CSS3 y JavaScript.
           Hago uso de jQuery, API´s y frameworks como BOOTSTRAP o MaterializeCSS. En el camino de seguir aprendidendo nuevas herramientas para desarrollar.</p>
@@ -51,7 +56,7 @@
         </div>
         <div class="col m6 offset-m1 s6">
           <img src="assets/images/jquery.png" alt="jquery">
-          <img src="assets/images/json.png" alt="json" >
+          <img src="assets/images/json.png"  alt="json" >
         </div>
         <div class="col m12 s6">
           <img src="assets/images/bootstrap.jpg" alt="bootstrap">
@@ -62,30 +67,25 @@
     <div class="section center-align" id="proyectos">
       <div class="row ">
         <h4>Mis Proyectos</h4>
-        <img src="assets/images/img-7.jpg" alt="proyectoLab1" class="col s4">
-        <img src="assets/images/img-10.jpg" alt="proyectoLab2" class="col s4">
-        <img src="assets/images/img-11.jpg" alt="proyectoLab3" class="col s4">
+        <a href="https://anasalazar.github.io/solucionarioCarousel/" class="col s4">
+          <img src="assets/images/brujas.png" alt="proyectoLab1" class="col s12">
+        </a>
+        <a href="https://anasalazar.github.io/appLYFT/" class="col s4">
+          <img src="assets/images/lyft.png" alt="proyectoLab2" class="col s12">
+        </a>
+        <a href="https://anasalazar.github.io/PokedexLab/public/index.html" class="col s4">
+          <img src="assets/images/pokedex.png" alt="proyectoLab3" class="col s10">
+        </a>
       </div>
-      <div class="row">
-        <h5 >Proyectos personales</h5>
-        <img src="assets/images/img-7.jpg" alt="miProyecto1" class="col s6">
-        <img src="assets/images/img-7.jpg" alt="miProyecto2" class="col s6">
-        <p class="col s6 ">Descripcion de la tienda de Planeaciones</p>
-        <p class="col s6 ">Descripcion proyecto Homeschoolingh</p>
-      </div>
-    </div>
     <div class="section white" id="contacto">
       <div class="row">
-        <div class="col m6 s12 center-align">
+        <div class="col m6 offset-m3 s12 center-align">
           <h5>CONTACTO</h5>
           <p>Ana Stephany Salazar Guzmán</p>
           <a href="https://github.com/AnaSalazar"><i class="fa fa-github fa-3x col s4 redes" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/ana-stephany-salazar"><i class="fa fa-linkedin fa-3x col s4 redes" aria-hidden="true"></i></a>
           <a href="mailto:anastephany.salazarguzman@gmail.com"><i class="fa fa-envelope fa-3x col s4 redes" aria-hidden="true"></i></a>
           <button type="button" name="button" class="deep-orange darken-1 btn redes"><a href="#" class="white-text">Inicio!</a></button>
-        </div>
-        <div class="col m6">
-          <img src="" alt="giftMio" class="col m6 hide-on-small-only center-align">
         </div>
       </div>
     </div>
@@ -95,41 +95,6 @@
         <p class="col s6">Steph / Laboratoria, México.</p>
       </div>
     </footer>
-    <!-- <div id="modal1" class="modal">
-      <div class="modal-content">
-        <div class="row">
-          <form class="col s12">
-            <div class="row">
-              <div class="input-field col s6">
-                <input id="first_name" type="text" class="validate">
-                <label for="first_name">Tu nombre</label>
-              </div>
-              <div class="input-field col s6">
-                <input id="last_name" type="text" class="validate">
-                <label for="last_name">Tu apellido</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="email" type="email" class="validate">
-                <label for="email">Tu email</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                <label for="textarea1">¡DÉJAME UN MENSAJE!</label>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Envialo</a>
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
-      </div>
-    </div> -->
-
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
