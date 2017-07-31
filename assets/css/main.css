@@ -1,9 +1,21 @@
+.titulos{
+  font-family: 'Kite One', sans-serif;
+}
+
 .textos {
   font-family: 'Athiti', sans-serif;
 }
 
-.titulos{
-  font-family: 'Kite One', sans-serif;
+.azul {
+  color: #20374F;
+}
+
+.amarillo {
+  color: #E8AC5D;
+}
+
+.margin-bottom{
+  margin-bottom: 3%;
 }
 
 .bold{
@@ -19,34 +31,43 @@
    margin-top: 12%;
 }
 
+.redes:hover {
+  color: #E8AC5D;
+}
 
-.logo {
-  border-radius: 100%;
-  width: 15%;
-  margin-top: 53%;
+.texto-parrafos {
+  font-size: 3vh;
+}
+
+.css3 {
+  width: 24%;
+}
+
+.btn-sube {
+  background-color: #E8AC5D;
 }
 
 #sobreMi {
   color: #E8AC5D;
   background: -webkit-linear-gradient(-90deg, #20374F 5%, #356C9E 100%);
+  padding-bottom: 15vh;
 }
 
 #habilidades {
+  color: #20374F;
   background: -webkit-linear-gradient(-90deg, #356C9E 10%, #E7EDF4  100%);
 }
 
 #proyectos {
   color: #20374F;
   background: -webkit-linear-gradient(-90deg, #E7EDF4 5%, #fff 100%);
+  padding-top: 10vh;
 }
 
 #contacto {
   color: #20374F;
-  background: -webkit-linear-gradient(-90deg, #fff 15%, #356C9E 100%);
-}
-
-.btn-sube {
-  background-color: #E8AC5D;
+  background: -webkit-linear-gradient(-90deg, #F1F5F9 15%, #356C9E 100%);
+  padding-top: 15vh;
 }
 
 footer {
@@ -54,4 +75,16 @@ footer {
   padding-bottom: 1%;
   color: #E8AC5D;
   background-color: #20374F;
+}
+
+@media (max-width: 429px) {
+  .css3 {
+    width: 85.5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .css3 {
+    width: 115%;
+  }
 }
