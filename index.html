@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/fa/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Athiti|Kite+One" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/modales.css">
   </head>
   <body>
     <div class="parallax-container row titulos" id="inicio">
@@ -36,7 +37,7 @@
         <img src="assets/images/parallax.png">
       </div>
     </div>
-    <div class="section center-align textos" id="sobreMi">
+    <div class="section center-align textos texto-amarillo" id="sobreMi">
       <div class="row container">
         <h1 class="titulos bold">Soy Ana Salazar</h1>
         <h3 class="col  s12 titulos">Front-End Developer Jr.</h3>
@@ -45,70 +46,135 @@
         <h5 class="col s6 offset-s3">Disfruto aprender, compartir y ejercer los conocimientos adquiridos.</h5>
       </div>
     </div>
-    <div class="section center-align textos" id="habilidades">
+    <div class="section center-align textos texto-azul" id="habilidades">
       <div class="row">
         <h3 class="titulos bold margin-bottom ">HERRAMIENTAS</h3>
         <div class="col m4 s4 texto-parrafos bold">
-          <img class="" src="assets/images/html5.jpg" alt="HTML">
-          <p class="block">Intermedio</p>
-          <img class="css3 " src="assets/images/css3.jpg" alt="css">
+          <img class="herramientas" src="assets/images/html5.jpg" alt="HTML">
+          <p class="">Intermedio</p>
+          <img class="css3 herramientas" src="assets/images/css3.jpg" alt="css">
           <p>Intermedio</p>
-          <img class="" src="assets/images/javascript.png" alt="javascript">
-          <p>Intermedio</p>
-        </div>
-        <div class="col m4 s4 texto-parrafos bold">
-          <img src="assets/images/bootstrap.jpg" alt="bootstrap">
-          <p>Intermedio</p>
-          <img src="assets/images/materialize.png" alt="materialize">
-          <p>Intermedio</p>
-          <img src="assets/images/github.png" alt="github">
+          <img class="herramientas" src="assets/images/javascript.png" alt="javascript">
           <p>Intermedio</p>
         </div>
         <div class="col m4 s4 texto-parrafos bold">
-          <img src="assets/images/jquery.png" alt="jquery">
+          <img class="herramientas" src="assets/images/bootstrap.jpg" alt="bootstrap">
+          <p>Intermedio</p>
+          <img class="herramientas" src="assets/images/materialize.png" alt="materialize">
+          <p>Intermedio</p>
+          <img class="herramientas" src="assets/images/github.png" alt="github">
+          <p>Intermedio</p>
+        </div>
+        <div class="col m4 s4 texto-parrafos bold">
+          <img class="herramientas" src="assets/images/jquery.png" alt="jquery">
           <p>Básico</p>
-          <img src="assets/images/json.png"  alt="json" >
+          <img class="herramientas" src="assets/images/json.png"  alt="json" >
           <p>Básico</p>
-          <img src="assets/images/nodejs.jpg" alt="github">
+          <img class="herramientas" src="assets/images/nodejs.jpg" alt="github">
           <p>Básico</p>
         </div>
       </div>
     </div>
-    <div class="section center-align textos" id="proyectos">
-      <div class="row ">
+    <div class="section center-align textos texto-azul" id="proyectos">
+      <div class="row">
         <h3 class="titulos bold margin-bottom">PROYECTOS</h3>
-        <a href="https://anasalazar.github.io/solucionarioCarousel/" class="col s4">
+        <div class="col s4">
           <img src="assets/images/brujas.png" alt="proyectoLab1" class="col s12 offset-s1">
-          <p class="textos texto-parrafos azul bold">Carrusel con Materialize</p>
-        </a>
-        <a href="https://anasalazar.github.io/appLYFT/public/index.html" class="col s4">
+          <p class="textos texto-parrafos bold">Carrusel sencillo</p>
+          <button class="btn background-amarillo texto-azul md-trigger bold" data-modal="modal-1">Información del Proyecto</button>
+        </div>
+        <div class="col s4">
           <img src="assets/images/lyft.png" alt="proyectoLab2" class="col s12 offset-s1">
           <p class="textos texto-parrafos azul bold">Recreación de la aplicación LYFT</p>
-        </a>
-        <a href="https://anasalazar.github.io/PokedexLab/public/index.html" class="col s4">
+          <button class="btn background-amarillo texto-azul bold  md-trigger" data-modal="modal-2">Información del Proyecto</button>
+        </div>
+        <div class="col s4">
           <img src="assets/images/pokedex.png" alt="proyectoLab3" class="col s10 offset-s1">
-          <p class="textos texto-parrafos azul bold  col s12">Proyecto realizado con API´s para traer información</p>
-        </a>
+          <p class="textos texto-parrafos azul bold  col s12">Pokedex API</p>
+          <button class="btn background-amarillo texto-azul md-trigger bold" data-modal="modal-3">Información del Proyecto</button>
+        </div>
       </div>
-    <div class="section " id="contacto">
+    </div>
+    <div class="section" id="contacto">
       <div class="row">
         <div class="col m6 offset-m3 s12 center-align">
           <h3 class="titulos bold margin-bottom">CONTACTO</h3>
           <p class="textos texto-parrafos bold">Ana Stephany Salazar Guzmán</p>
           <p class="textos texto-parrafos bold">¡Colaboremos Juntos!</p>
-          <a class="azul" href="https://github.com/AnaSalazar"><i class="fa fa-github fa-3x col s4 redes" aria-hidden="true"></i></a>
-          <a class="azul" href="https://www.linkedin.com/in/ana-stephany-salazar"><i class="fa fa-linkedin fa-3x col s4 redes" aria-hidden="true"></i></a>
-          <a class="azul" href="mailto:anastephany.salazarguzman@gmail.com"><i class="fa fa-envelope fa-3x col s4 redes" aria-hidden="true"></i></a>
-          <button type="button" name="button" class="btn-sube btn redes"><a href="#inicio" class="white-text">Inicio!</a></button>
+          <a class="texto-azul" href="https://github.com/AnaSalazar"><i class="fa fa-github fa-3x col s4 redes" aria-hidden="true"></i></a>
+          <a class="texto-azul" href="https://www.linkedin.com/in/ana-stephany-salazar"><i class="fa fa-linkedin fa-3x col s4 redes" aria-hidden="true"></i></a>
+          <a class="texto-azul" href="mailto:anastephany.salazarguzman@gmail.com"><i class="fa fa-envelope fa-3x col s4 redes" aria-hidden="true"></i></a>
+          <button type="button" name="button" class="background-amarillo btn redes"><a class="textos texto-azul bold" href="#inicio">Inicio!</a></button>
         </div>
       </div>
     </div>
     <footer class="center-align">
-      <div class="row">
+      <div class="row titulos">
         <p class="col s6">© 2017 Copyright</p>
         <p class="col s6">Steph / Laboratoria, México.</p>
       </div>
     </footer>
+    <!-- Modales proyectos -->
+    <div class="md-modal md-effect-1" id="modal-1">
+      <div class="md-content">
+        <h3>Carrusel de imágenes</h3>
+        <div>
+          <p>Para este proyecto utilicé:</p>
+          <ul>
+            <li><strong>HTML: </strong> Estructura creada con HTML5.</li>
+            <li><strong>Materialize: </strong> Framework utilizado para darle parte de la estructura y estilos al proyecto.</li>
+            <li><strong>CSS:</strong> También utilicé CSS3 para los estilos más particularess.</li>
+          </ul>
+          <button class="md-close col s6">Cerrar!</button>
+          <button class="md-close col s6"><a href="https://anasalazar.github.io/solucionarioCarousel/">Ver Proyecto</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="md-modal md-effect-1" id="modal-2">
+      <div class="md-content">
+        <h3>App Lyft</h3>
+        <div>
+          <p>Para este proyecto utilicé:</p>
+          <ul>
+            <li><strong>HTML5:</strong> Toda la estructura fue creada en HTML5.</li>
+            <li><strong>C:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+            <li><strong>Close:</strong> click on the button below to close the modal.</li>
+          </ul>
+          <button class="md-close col s6">Cerrar!</button>
+          <button class="md-close col s6"><a href="https://anasalazar.github.io/appLYFT/public/index.html">Ver Proyecto</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="md-modal md-effect-1" id="modal-3">
+      <div class="md-content">
+        <h3>Pokedex API</h3>
+        <div>
+          <p>Proyecto realizado con API´s para traer la información de cada pokemón:</p>
+          <ul>
+            <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+            <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+            <li><strong>Close:</strong> click on the button below to close the modal.</li>
+          </ul>
+          <button class="md-close col s6">Cerrar!</button>
+          <button class="md-close col s6"><a href="https://anasalazar.github.io/PokedexLab/public/index.html">Ver Proyecto</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="md-modal md-effect-1" id="modal-4">
+      <div class="md-content">
+        <h3>tituloProyecto</h3>
+        <div>
+          <p>This is a modal window. You can do the following things with it:</p>
+          <ul>
+            <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+            <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+            <li><strong>Close:</strong> click on the button below to close the modal.</li>
+          </ul>
+          <button class="md-close col s6">Cerrar!</button>
+          <button class="md-close col s6"><a href="https://anasalazar.github.io/appLYFT/public/index.html">Ver Proyecto</a></button>
+        </div>
+      </div>
+    </div>
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
