@@ -6,12 +6,20 @@
   font-family: 'Athiti', sans-serif;
 }
 
-.azul {
+.texto-azul {
   color: #20374F;
 }
 
-.amarillo {
+.texto-amarillo {
   color: #E8AC5D;
+}
+
+.background-amarillo {
+  background-color: #E8AC5D;
+}
+
+.background-azul {
+background-color: #20374F;
 }
 
 .margin-bottom{
@@ -27,6 +35,11 @@
   margin: 0;
 }
 
+.herramientas:hover{
+  width: 30%;
+  border: solid 4px #E8AC5D;
+}
+
 .redes {
    margin-top: 12%;
 }
@@ -36,30 +49,23 @@
 }
 
 .texto-parrafos {
-  font-size: 3vh;
+  font-size: 1.5em;
 }
 
 .css3 {
   width: 24%;
 }
 
-.btn-sube {
-  background-color: #E8AC5D;
-}
-
 #sobreMi {
-  color: #E8AC5D;
   background: -webkit-linear-gradient(-90deg, #20374F 5%, #356C9E 100%);
   padding-bottom: 15vh;
 }
 
 #habilidades {
-  color: #20374F;
   background: -webkit-linear-gradient(-90deg, #356C9E 10%, #E7EDF4  100%);
 }
 
 #proyectos {
-  color: #20374F;
   background: -webkit-linear-gradient(-90deg, #E7EDF4 5%, #fff 100%);
   padding-top: 10vh;
 }
@@ -72,7 +78,7 @@
 
 footer {
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 3%;
   color: #E8AC5D;
   background-color: #20374F;
 }
