@@ -1,3 +1,7 @@
+.steph {
+  font-family: 'Homemade Apple', cursive;
+}
+
 .titulos{
   font-family: 'Kite One', sans-serif;
 }
@@ -22,6 +26,10 @@
 background-color: #20374F;
 }
 
+.espacio {
+  margin-bottom:5%;
+}
+
 .margin-bottom{
   margin-bottom: 3%;
 }
@@ -33,11 +41,6 @@ background-color: #20374F;
 .parallax-container {
   height: 80vh;
   margin: 0;
-}
-
-.herramientas:hover{
-  width: 30%;
-  border: solid 4px #E8AC5D;
 }
 
 .redes {
@@ -53,7 +56,17 @@ background-color: #20374F;
 }
 
 .css3 {
-  width: 24%;
+  width: 23%;
+}
+
+div.row.titulos {
+  margin: 0;
+}
+
+footer {
+  padding-top: 1%;
+  color: #E8AC5D;
+  background-color: #20374F;
 }
 
 #sobreMi {
@@ -73,14 +86,7 @@ background-color: #20374F;
 #contacto {
   color: #20374F;
   background: -webkit-linear-gradient(-90deg, #F1F5F9 15%, #356C9E 100%);
-  padding-top: 15vh;
-}
-
-footer {
-  padding-top: 1%;
-  padding-bottom: 3%;
-  color: #E8AC5D;
-  background-color: #20374F;
+  padding-top: 12vh;
 }
 
 @media (max-width: 429px) {
