@@ -1,3 +1,7 @@
+/*body {
+  margin: 0 auto;
+}*/
+
 .steph {
   font-family: 'Homemade Apple', cursive;
 }
@@ -76,27 +80,15 @@ footer {
 
 #habilidades {
   background: -webkit-linear-gradient(-90deg, #356C9E 10%, #E7EDF4  100%);
+  padding-bottom: 8vh;
 }
 
 #proyectos {
-  background: -webkit-linear-gradient(-90deg, #E7EDF4 5%, #fff 100%);
-  padding-top: 10vh;
+  background: -webkit-linear-gradient(-90deg, #E7EDF4 10%, #fff 100%);
+  padding-bottom: 8vh;
 }
 
 #contacto {
   color: #20374F;
-  background: -webkit-linear-gradient(-90deg, #F1F5F9 15%, #356C9E 100%);
-  padding-top: 12vh;
-}
-
-@media (max-width: 429px) {
-  .css3 {
-    width: 85.5%;
-  }
-}
-
-@media (max-width: 320px) {
-  .css3 {
-    width: 115%;
-  }
+  background: -webkit-linear-gradient(-90deg, #fff 10%, #356C9E 100%);
 }
