@@ -9,6 +9,8 @@
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="assets/fa/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/tooltip-line.css" />
   </head>
   <body >
     <section>
@@ -37,7 +39,7 @@
           <img src="assets/images/parallax.png">
         </div>
       </div>
-      <div class="section center-align textos texto-amarillo" id="sobreMi">
+      <div class="section center-align textos texto-blanco" id="sobreMi">
         <div class="row">
           <h1 class="titulos bold espacio">Soy Ana Salazar</h1>
           <h3 class="titulos espacio">Front-End Developer Jr.</h3>
@@ -46,7 +48,7 @@
           <h5 class="col s6 offset-s3 ">Disfruto aprender, compartir y ejercer los conocimientos adquiridos.</h5>
         </div>
       </div>
-      <div class="section center-align textos texto-azul" id="habilidades">
+      <div class="section center-align textos texto-blanco" id="habilidades">
         <div class="row">
           <h3 class="titulos bold margin-bottom">HERRAMIENTAS</h3>
           <div class="row texto-parrafos bold espacio">
@@ -85,104 +87,65 @@
         </div>
       </div>
       <div class="section center-align textos texto-azul" id="proyectos">
+        <h3 class="titulos bold margin-bottom">PROYECTOS</h3>
         <div class="row">
-          <h3 class="titulos bold margin-bottom">PROYECTOS</h3>
           <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/pastorcitoFeliz.jpg" alt="tacos">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Pastorcito Feliz</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">El Pastorcito Feliz<i class="material-icons right">close</i></span>
-                <p class="bold">HTML5, Materialize, CSS3, API, Firebase, JS</p>
-                <p class="bold">Proyecto colaborativo, GitHub</p>
-                <p><a class="texto-azul" target="_blank" href="https://jesus-es-tu-pastor.github.io/el-pastorcito-feliz/public/index.html"><i class="material-icons redes medium">visibility</i></a></p>
-                <p><a class="texto-azul" target="_blank" href="https://github.com/Jesus-es-tu-pastor/el-pastorcito-feliz"><i class="fa fa-github fa-3x redes" aria-hidden="true"></i></a></p>
+            <div class="dummy dummy-menu">
+              <p class="tooltip"><img class="proyecto" src="assets/images/pastorcitoFeliz.jpg" alt="tacos"><span class="tooltip-content titulos"><span class="tooltip-text"><span class="tooltip-inner">HTML5, Materialize, CSS3, API, Firebase, JS, Github Colaborativo</span></span></span></p>
+              <div class="col s12 center-align">
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver proyecto"><a class="texto-azul" target="_blank" href="https://jesus-es-tu-pastor.github.io/el-pastorcito-feliz/public/index.html"><i class="fa fa-eye fa-2x hover" aria-hidden="true"></i></a></span>
+                <span class="bold">El Pastorcito Feliz</span>
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver código"><a class="texto-azul" target="_blank" href="https://github.com/Jesus-es-tu-pastor/el-pastorcito-feliz"><i class="fa fa-github fa-2x hover" aria-hidden="true"></i></a></span>
               </div>
             </div>
           </div>
           <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/pokedex.png" alt="pokedex">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Pókedex</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">Pókedex<i class="material-icons right">close</i></span>
-                <p class="bold">Proyecto para aprender a usar AJAX, JSON, API </p>
-                <p><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/PokedexLab/public/index.html"><i class="material-icons redes medium">visibility</i></a></p>
-                <p><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/PokedexLab"><i class="fa fa-github fa-3x redes" aria-hidden="true"></i></a></p>
+            <div class="dummy dummy-menu">
+              <p class="tooltip"><img class="proyecto" src="assets/images/pokedex.png" alt="pokedex"><span class="tooltip-content titulos"><span class="tooltip-text"><span class="tooltip-inner"> AJAX, JSON, API </span></span></span></p>
+              <div class="col s12 center-align">
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver proyecto"><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/PokedexLab/public/index.html"><i class="fa fa-eye fa-2x hover" aria-hidden="true"></i></a></span>
+                <span class="bold">Pókedex</span>
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver código"><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/PokedexLab"><i class="fa fa-github fa-2x hover" aria-hidden="true"></i></a></span>
               </div>
             </div>
           </div>
           <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/lyft.jpg" alt="lyft">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Lyft</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">Recreación Lyft<i class="material-icons right">close</i></span>
-                <p class="bold">HTML5, CSS3, JS</p>
-                <p><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/appLYFT/public/index.html"><i class="material-icons redes medium">visibility</i></a></p>
-                <p><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/appLYFT"><i class="fa fa-github fa-3x redes" aria-hidden="true"></i></a></p>
+            <div class="dummy dummy-menu">
+              <p class="tooltip"><img class="proyecto" src="assets/images/lyft.jpg" alt="lyft"><span class="tooltip-content titulos"><span class="tooltip-text"><span class="tooltip-inner">Recreación de la app Lyft. HTML5, CSS3, JS</span></span></span></p>
+              <div class="col s12 center-align">
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver proyecto"><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/appLYFT/public/index.html"><i class="fa fa-eye fa-2x hover" aria-hidden="true"></i></a></span>
+                <span class="bold">Lyft</span>
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver código"><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/appLYFT"><i class="fa fa-github fa-2x hover" aria-hidden="true"></i></a></span>
               </div>
             </div>
           </div>
           <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/mexico.jpg" alt="mexico">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">México-Ahorcado</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">Juego ahorcado<i class="material-icons right">close</i></span>
-                <p class="bold">HTML5, CSS3, JS</p>
-                <p class="bold">Proyecto colaborativo, GitHub</p>
-                <p><a class="texto-azul" target="_blank" href="https://jesus-es-tu-pastor.github.io/el-pastorcito-feliz/public/index.html"><i class="material-icons redes medium">visibility</i></a></p>
-                <p><a class="texto-azul" target="_blank" href="https://github.com/Jesus-es-tu-pastor/el-pastorcito-feliz"><i class="fa fa-github fa-3x redes" aria-hidden="true"></i></a></p>
+            <div class="dummy dummy-menu">
+              <p class="tooltip"><img class="proyecto" src="assets/images/mexico.jpg" alt="mexico"><span class="tooltip-content titulos"><span class="tooltip-text"><span class="tooltip-inner">Juego del ahorcado, para niños. HTML5, CSS3, JS, Github Colaborativo</span></span></span></p>
+              <div class="col s12 center-align">
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver proyecto"><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/Kaizen-ahorcado/"><i class="fa fa-eye fa-2x hover" aria-hidden="true"></i></a></span>
+                <span class="bold">México-ahorcado</span>
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver código"><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/Kaizen-ahorcado"><i class="fa fa-github fa-2x hover" aria-hidden="true"></i></a></span>
               </div>
             </div>
           </div>
           <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/twitter.png" alt="twitter">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Twitter</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">Réplica básica de perfil<i class="material-icons right">close</i></span>
-                <p class="bold">HTML5, CSS3, JS, jQuery</p>
-                <p><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/Twitter-jQuery/"><i class="material-icons redes medium">visibility</i></a></p>
-                <p><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/Twitter-jQuery"><i class="fa fa-github fa-3x redes" aria-hidden="true"></i></a></p>
+            <div class="dummy dummy-menu">
+              <p class="tooltip"><img class="proyecto" src="assets/images/twitter.png" alt="twitter"><span class="tooltip-content titulos"><span class="tooltip-text"><span class="tooltip-inner">Réplica básica de perfil. HTML5, CSS3, JS, jQuery</span></span></span></p>
+              <div class="col s12 center-align">
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver proyecto"><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/Twitter-jQuery/"><i class="fa fa-eye fa-2x hover" aria-hidden="true"></i></a></span>
+                <span class="bold"> Twitter </span>
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver código"><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/Twitter-jQuery"><i class="fa fa-github fa-2x hover" aria-hidden="true"></i></a></span>
               </div>
             </div>
           </div>
           <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="assets/images/foro.jpg" alt="foro">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Foro</span>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title">Foro de Opinión<i class="material-icons right">close</i></span>
-                <p class="bold">HTML5, CSS3, Bootstrap, JS, getJSON</p>
-                <p class="bold">Muestra de un foro de diversos temas con sus respectivos tópicos</p>
-                <p><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/foroOpinion-Sprint5/"><i class="material-icons redes medium">visibility</i></a></p>
-                <p><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/foroOpinion-Sprint5"><i class="fa fa-github fa-3x redes" aria-hidden="true"></i></a></p>
+            <div class="dummy dummy-menu">
+              <p class="tooltip"><img class="proyecto" src="assets/images/foro.jpg" alt="foro"><span class="tooltip-content titulos"><span class="tooltip-text"><span class="tooltip-inner">Muestra de un foro de diversos temas con sus respectivos tópicos. HTML5, CSS3, Bootstrap, JS, getJSON</span></span></span></p>
+              <div class="col s12 center-align">
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver proyecto"><a class="texto-azul" target="_blank" href="https://anasalazar.github.io/foroOpinion-Sprint5/"><i class="fa fa-eye fa-2x hover" aria-hidden="true"></i></a></span>
+                <span class="bold">Foro de Opinión </span>
+                <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ver código"><a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar/foroOpinion-Sprint5"><i class="fa fa-github fa-2x hover" aria-hidden="true"></i></a></span>
               </div>
             </div>
           </div>
@@ -197,12 +160,12 @@
             <a class="texto-azul" target="_blank" href="https://github.com/AnaSalazar"><i class="fa fa-github fa-3x col s4 redes" aria-hidden="true"></i></a>
             <a class="texto-azul" target="_blank" href="https://www.linkedin.com/in/ana-stephany-salazar"><i class="fa fa-linkedin fa-3x col s4 redes" aria-hidden="true"></i></a>
             <a class="texto-azul" target="_blank" href="mailto:anastephany.salazarguzman@gmail.com"><i class="fa fa-envelope fa-3x col s4 redes" aria-hidden="true"></i></a>
-            <button type="button" name="button" class="background-amarillo btn redes"><a class="textos texto-azul bold" target="_blank" href="assets/images/CV-Steph.pdf">Consulta mi CV</a></button>
-            <button type="button" name="button" class="background-amarillo btn redes"><a class="textos texto-azul bold" href="#inicio">Inicio</a></button>
+            <button type="button" name="button" class="background-azul btn redes"><a class="textos texto-blanco bold" target="_blank" href="assets/images/CV-Steph.pdf">Consulta mi CV</a></button>
+            <button type="button" name="button" class="background-azul btn redes"><a class="textos texto-blanco bold" href="#inicio">Inicio</a></button>
           </div>
         </div>
       </div>
-      <footer class="center-align">
+      <footer class="center-align background-azul texto-blanco">
         <div class="row titulos">
           <p class="col s6">© 2017 Copyright</p>
           <p class="col s6">Steph / Laboratoria, México.</p>
