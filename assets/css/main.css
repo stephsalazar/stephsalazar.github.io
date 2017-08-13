@@ -1,7 +1,3 @@
-/*body {
-  margin: 0 auto;
-}*/
-
 .steph {
   font-family: 'Homemade Apple', cursive;
 }
@@ -18,12 +14,14 @@
   color: #20374F;
 }
 
-.texto-amarillo {
-  color: #E8AC5D;
+.texto-blanco {
+  /*color: #E8AC5D;*/
+  color: white;;
 }
 
 .background-amarillo {
   background-color: #E8AC5D;
+  /*background-color: white;*/
 }
 
 .background-azul {
@@ -47,20 +45,25 @@ background-color: #20374F;
   margin: 0;
 }
 
+.proyecto {
+  width: 100%;
+}
+
 .redes {
    margin-top: 12%;
 }
 
 .redes:hover {
-  color: #E8AC5D;
+  /*color: #E8AC5D;*/
+  color: white;
+}
+
+.hover:hover{
+  color: rgba(53, 108, 158,0.95);
 }
 
 .texto-parrafos {
   font-size: 1.5em;
-}
-
-.css3 {
-  width: 23%;
 }
 
 div.row.titulos {
@@ -69,8 +72,6 @@ div.row.titulos {
 
 footer {
   padding-top: 1%;
-  color: #E8AC5D;
-  background-color: #20374F;
 }
 
 #sobreMi {
